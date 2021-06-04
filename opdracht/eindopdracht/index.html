@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <nav>
+        <ul>
+            <li> <a href="../Vlaggen/1-polen/index.html">Ga naar Polen </a></li>
+            <li> <a href="../Vlaggen/2-nederland/index.html">Ga naar Nederland </a></li>
+            <li> <a href="../Vlaggen/3-frankrijk/index.html">Ga naar frankrijk </a></li>
+            <li> <a href="../Vlaggen/4-colombia/index.html">Ga naar Colombia </a></li>
+            <li> <a href="../Vlaggen/5-botswana/index.html">Ga naar botswana </a></li>
+            <li> <a href="../Vlaggen/6-benin/index.html">Ga naar Benin </a></li>
+            <li> <a href="../Vlaggen/7-chile/index.html">Ga naar Chile </a></li>
+            <li> <a href="../Vlaggen/8-denemarken/index.html">Ga naar denemarken </a></li>
+            <li> <a href="../Vlaggen/9-noorwegen/index.html">Ga naar Noorwegen </a></li>
+        </ul>
+    </nav>
+
+    <table class="myTable">
+        <tr>
+            <th>Naam</th>
+            <th>Achternaam</th>
+            <th>Leeftijd</th>
+            <th>E-mail</th>
+            <th>Woonplaats</th>
+        </tr>
+        <tr>
+            <td id="naam"></td>
+            <td id="achternaam"></td>
+            <td id="leeftijd"></td>
+            <td id="email"></td>
+            <td id="woonplaats"></td>
+        </tr>
+    </table>
+
     <div class="container status">
-        
+
     </div>
     <div class="container">
         <div class="col">
-            <div class="button" id="eten"><span>Geef eten</span></div>
-            <div class="button" id="drinken"><span>Geef Drinken</span></div>
-            <div class="button" id="aaien"><span>Aaien</span></div>
+           
         </div>
         <div class="col">
         </div>
         <div class="response"></div>
     </div>
-    <script>
-        
-        let persoon = {
-            voornaam : prompt("Wat is je naam?"),
-            achternaam : prompt("Wat is je achternaam?"),
-            leeftijd : prompt("Wat is je leeftijd?"),
-        };
+    <script src="script.js"></script> 
 
-
-
-        
-        
-    </script>
 </body>
+
 </html>

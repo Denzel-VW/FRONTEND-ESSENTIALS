@@ -1,4 +1,3 @@
-/* Hier hoef je niks mee te doen */
 *{
     font-size:0;
 }
@@ -15,12 +14,17 @@
 #bovenkant{
     width: 900px;
     height: 300px;
-    background-color:red;
+    background-color:yellow;
+}
+
+#midden{
+    width: 900px;
+    height: 150px;
+    background-color: blue;
 }
 
 #onderkant{
     width: 900px;
-    height: 300px;
-    background-color:white;
+    height: 150px;
+    background-color:red;
 }
-
