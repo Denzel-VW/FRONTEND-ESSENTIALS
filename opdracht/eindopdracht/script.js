@@ -5,6 +5,10 @@ let persoon = {
     email: prompt("Wat is je email?"),
     woonplaats: prompt("Wat is je woonplaats?")
 };
+let colors = [
+    "red",
+    "blue"
+];
 
 
 if(persoon.leeftijd == 16){
@@ -23,9 +27,11 @@ else if(persoon.leeftijd == 19){
     document.querySelector('body').style.background = 'green';
 }
 
-else {
+else if(persoon.leeftijd > 19){
     document.querySelector('body').style.background = 'yellow';
 }
+
+
 
 
 
@@ -36,6 +42,8 @@ document.getElementById("achternaam").innerHTML = persoon.achternaam;
 document.getElementById("leeftijd").innerHTML = persoon.leeftijd;
 document.getElementById("email").innerHTML = persoon.email;
 document.getElementById("woonplaats").innerHTML = persoon.woonplaats;
+document.getElementById("grotenaam").innerHTML = persoon.voornaam + " " + persoon.achternaam;
+
 
 
 // let persoon = {

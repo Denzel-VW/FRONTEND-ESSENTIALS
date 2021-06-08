@@ -14,11 +14,81 @@
 #bovenkant{
     width: 900px;
     height: 250px;
-    background-color:red;
+   
+}
+
+#linksboven{
+    width:200px ;
+    height: 250px;
+    background-color: red;
+    border-right: 20px solid white;
+    border-bottom: solid white 20px;
+    
+    
+    display: inline;
+    float: left;
+}
+
+#middenboven{
+    height: 250px;
+    width: 60px;
+    background-color: darkblue;
+    display: inline;
+    float: left;
+}
+
+#rechtsboven{
+    width:600px ;
+    height: 250px;
+    background-color: red;
+    border-left: 20px solid white;
+    border-bottom: solid white 20px;
+    display: inline;
+    float:right;
+}
+
+#midden{
+    width:900px;
+    height: 60px;
+    background-color: darkblue;
+    
 }
 
 #onderkant{
     width: 900px;
     height: 250px;
-    background-color:white;
+    
 }
+
+#linksonder{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border-right: 20px solid white;
+    border-top: solid white 20px;
+    display:inline ;
+    float: left;
+}
+
+#middenonder{
+    height: 250px;
+    width: 60px;
+    background-color: darkblue;
+    display: inline;
+    float: left;
+}
+
+
+#rechtsonder{
+    width: 600px;
+    height: 250px;
+    background-color: red;
+    border-left: 20px solid white;
+    border-top: solid white 20px;
+    display:inline;
+    float:right;
+    
+}
+
+
+
